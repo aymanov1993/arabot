@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS pages (
     description TEXT,
     PRIMARY KEY (page_id)
 )
+- config tomcat server
 - git clone https://github.com/aymanov1993/arabot.git
 - Run mvn exec:java
 
