@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: wiki Maven Webapp
+Implementation-Version: 1.0
+Built-By: Ayman
+Implementation-Vendor-Id: arabot
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+
