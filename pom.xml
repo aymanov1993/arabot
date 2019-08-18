@@ -112,18 +112,16 @@
 		</dependency>
 	</dependencies>
 	<build>
-        <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
-                <configuration>
-                    <mainClass>com.example.Main</mainClass>
-                    <arguments>
-                        <argument>argument1</argument>
-                    </arguments>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+		<finalName>wikiwebapp</finalName>
+		<!-- Builds a Web Application Archive (WAR) file from the project output 
+			and its dependencies. -->
+		<plugins>
+			<plugin>
+				<!-- Add Maven coordinates (GAV) for: maven-war-plugin -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.2.0</version>
+			</plugin>
+		</plugins>
+	</build>
 </project>
